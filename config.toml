@@ -1,0 +1,60 @@
+baseURL = "http://www.coolfe.com/"
+languageCode = "en-us"
+title = "COOLFE"
+theme = "hugo-ink"
+paginate = 5
+
+copyright = "© Copyright coolfe"
+
+pygmentsstyle = "vs"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-123-45"
+disqusShortname = "ink-demo"
+
+[params]
+	subtitle = "年轻人，好好努力吧"
+
+	# Optional 64x64 avatar image.
+	avatar = "https://avatars3.githubusercontent.com/u/7121707?s=460&u=56f4dc890745969b218a108aac5a5b353d144383&v=4"
+
+	# Content types to disable Disqus on.
+	disableDisqusTypes = ["page"]
+	
+	featherIconsCDN = true
+
+	mode = "auto" # "dark" or "auto"
+	# customCSS = "css/custom.css"  # Custom CSS applied to default styles.
+	# customDarkCSS = "css/custom-dark.css"  # Custom styles applied to dark mode css.
+	# customJS = ["js/custom.js", "js/custom1.js"]  # Custom JS scripts.
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/coolfe"
+
+
+[taxonomies]
+   tag = "tags"
