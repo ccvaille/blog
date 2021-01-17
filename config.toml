@@ -1,4 +1,4 @@
-baseURL = "http://www.coolfe.com/"
+baseURL = "https://www.coolfe.com/"
 languageCode = "en-us"
 title = "COOLFE"
 theme = "hugo-ink"
