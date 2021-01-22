@@ -1,7 +1,7 @@
 ---
 title: "深入理解 BFC"
 date: 2021-01-21T23:44:09+08:00
-draft: true，
+draft: false
 description: "这次来说说面试常问的 BFC"
 tags: ["CSS"]
 ---
