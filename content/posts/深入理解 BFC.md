@@ -31,8 +31,9 @@ tags: ["CSS"]
   - 阻止垂直外边距折叠
   - BFC 不会重叠浮动元素
   - 可以清除浮动
-#### [DEMO](https://codepen.io/coolfe/pen/WNGWRQQ)
-###  参考链接
+#### DEMO
+- https://codepen.io/coolfe/pen/WNGWRQQ
+### 参考链接
   - https://github.com/ljianshu/Blog/issues/15
   - https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Block_formatting_context
 
