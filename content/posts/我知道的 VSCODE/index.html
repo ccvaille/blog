@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+  <head>
+    <meta charset="utf-8" />
+    <title>我知道的 VSCODE</title>
+    <link rel="stylesheet" href="./dist/reveal.css" />
+    <link rel="stylesheet" href="./dist/theme/moon.css" id="theme" />
+  </head>
+
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+          <h1>我知道的 VSCODE</h1>
+        </section>
+
+        <section data-transition="convex-in concave-out">
+          <section><h2>先来两个常用命令</h2></section>
+          <section>
+            <pre> 
+              <code>
+              code -r file
+              </code>
+          </pre>
+            <pre>
+            <code>
+              code -d file1 file2
+            </code>
+          </pre>
+          </section>
+        </section>
+
+        <section data-transition="convex-in concave-out">
+          <h2>常用操作</h2>
+        </section>
+        <section>
+          <section>
+            <h3>光标移动</h3>
+          </section>
+          <section>
+            <h4>文件的开头 / 结尾</h4>
+            <p>Ctrl + Home/End</p>
+            <h4>行首 / 行尾</h4>
+            <p>Home/End</p>
+          </section>
+          <section>
+            <h4>单词</h4>
+            <p>Alt + → / Ctrl + →</p>
+            <h4>代码块</h4>
+            <p>Ctrl + Shift + \</p>
+            <h4>创建多个光标</h4>
+            <p>Alt + 光标</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3>文本操作</h3>
+          </section>
+          <section>
+            <h4>选择左侧 / 右侧的所有内容</h4>
+            <p>Ctrl + Shift + Home/End</p>
+            <h4>选择单词</h4>
+            <p>Ctrl + Shift + →</p>
+            <p>点击两次</p>
+          </section>
+          <section>
+            <h4>整行选择</h4>
+            <p>点击三次鼠标</p>
+            <h4>整个文档选择</h4>
+            <p>点击四次鼠标</p>
+            <h4>选择多行</h4>
+            <p>拖动行号</p>
+          </section>
+        </section>
+        <section>
+          <section>
+            <h3>其他操作</h3>
+          </section>
+          <section>
+            <h4>重新打开关闭的编辑页面</h4>
+            <p>Ctrl + shift + T</p>
+            <h4>缩进偏移：左移/右移</h4>
+            <p>Ctrl + [</p>
+            <p>Ctrl + ]</p>
+          </section>
+          <section>
+            <h4>打开终端</h4>
+            <p>Ctrl + `</p>
+            <h4>新建终端</h4>
+            <p>Ctrl + Shift + `</p>
+            <h4>打开命令界面</h4>
+            <p>Ctrl + Shift + P</p>
+          </section>
+          <section>
+            <h4>上一行添加</h4>
+            <p>Ctrl + Shift + Enter</p>
+            <h4>代码折叠/展开</h4>
+            <p>Ctrl + Shift + [</p>
+            <p>Ctrl + Shift + ]</p>
+            <h4>搜索</h4>
+            <p>单文件搜索 Ctrl + F</p>
+            <p>多文件搜索 Ctrl + Shift + F</p>
+          </section>
+          <section>
+            <h4>替换</h4>
+            <p>Ctrl + H</p>
+            <h4>快速分屏</h4>
+            <p>Ctrl + \</p>
+            <h4>快速切换屏</h4>
+            <p>Ctrl + 1</p>
+          </section>
+        </section>
+
+        <section data-transition="convex-in concave-out">
+          <section>
+            <h2>三个常用命令</h2>
+          </section>
+          <section>
+            <h4>文件跳转</h4>
+            <p>Ctrl + P</p>
+          </section>
+          <section>
+            <h4>行跳转</h4>
+            <p>:</p>
+            <p>Ctrl + G</p>
+          </section>
+          <section>
+            <h4>函数跳转</h4>
+            <p>@</p>
+            <p>Ctrl + Shift + O</p>
+          </section>
+        </section>
+
+        <section data-transition="convex-in concave-out">
+          <section>
+            <h2>辅助功能</h2>
+          </section>
+          <section>
+            <h4>鼠标移到函数名上面会显示函数的基本信息，按住 Ctrl 会显示函数的实现</h4>
+          </section>
+          <section>
+            <h4>鼠标移到 CSS 规则，能看到生效的 HTML 的代码</h4>
+          </section>
+          <section>
+            <h4>小地图</h4>
+            <p>editor.minimap.renderCharacters</p>
+            <p>渲染每行是实际字符还是色块</p>
+          </section>
+          <section>
+            <h4>面包屑</h4>
+            <p>breadcrumbs.enabled</p>
+            <p>开启面包屑</p>
+          </section>
+          <section>
+            <h4>空格符</h4>
+            <p>editor.renderWhitespace：all</p>
+            <p>让编辑器将所有的空格符、制表符等全部都渲染出来，可以清楚看出是用空格符还是制表符</p>
+          </section>
+          <section>
+            <h4>缩进参考线</h4>
+            <p>editor.renderIndentGuides</p>
+            <p>可以区分出不同代码块之间的层级关系</p>
+          </section>
+          <section>
+            <h4>垂直标尺</h4>
+            <p>editor.rulers: [150]</p>
+          </section>
+          <section>
+            <h4>默认新建语言</h4>
+            <p>files.defaultLanguage: 'Markdown'</p>
+          </section>
+        </section>
+
+        <section data-transition="convex-in concave-out">
+          <section>
+            <h2>常用插件</h2>
+          </section>
+          <section style="text-align: left">
+            <p>- Chinese (Simplified) Language Pack for Visual Studio Code</p>
+            <p>- Sublime Text Keymap and Settings Importer</p>
+            <p>- Vetur</p>
+            <p>- GitLens</p>
+            <p>- Settings Sync</p>
+          </section>
+          <section>
+            <p>- Todo Tree</p>
+            <p>- WakaTime</p>
+            <p>- Polacode-2020</p>
+            <p>- indent-rainbow</p>
+            <p>- Live Server</p>
+          </section>
+        </section>
+
+        <section data-transition="convex-in concave-out">
+          <section>
+            <h2>代码块</h2>
+          </section>
+          <section>
+            <h4>新建</h4>
+            <p>文件-首选项-用户片段</p>
+          </section>
+          <section>
+            <pre>
+              <code>
+                "Print to console": {
+                  "scope": "javascript,typescript",
+                  "prefix": "log",
+                  "body": [
+                    "console.log('$1');",
+                    "$2"
+                  ],
+                  "description": "Log output to console"
+                }
+              </code>
+            </pre>
+          </section>
+          <section>
+            <p>${1:i}</p>
+            <p>${1:i}+1</p>
+          </section>
+          <section><a href="https://snippet-generator.app/" target="_blank">snippet-generator</a></section>
+        </section>
+
+        <section>
+          <h3>谢谢</h3>
+        </section>
+      </div>
+    </div>
+    <script src="./dist/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        center: true,
+        history: true,
+      });
+    </script>
+  </body>
+</html>
